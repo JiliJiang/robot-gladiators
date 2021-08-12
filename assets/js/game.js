@@ -68,13 +68,14 @@ for (var i=0; i<enemyNames.length; i++)
 
 {
   
-  var pickedEnemyName = enemyNames[i]; 
+  var pickedEnemyName = enemyNames[i];
+  var enemyNumber=i+1 
   var enemyHealth = 50;
   var enemyAttack = 12;
   var playerHealth = 100;
   var playerAttack = 10;
   var playerMoney =10;
-
+  window.alert("Now fighting "+"Enemy "+enemyNumber+" -- Name: "+pickedEnemyName);
   fight(pickedEnemyName);
   
 }
